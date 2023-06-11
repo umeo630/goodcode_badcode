@@ -1,8 +1,8 @@
 package chapter3;
 
 public class Money {
-    int amount;
-    Currency currency;
+    final int amount;
+    final Currency currency;
 
     Money(int amount, Currency currency) {
         // ガード節で不正値の混入を防ぐ
