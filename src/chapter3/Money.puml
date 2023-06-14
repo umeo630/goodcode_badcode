@@ -1,0 +1,8 @@
+@startuml
+ class Money {
+   -final int amount
+   -final Currency currency
+   +Money(final int amount, final Currency currency)
+   +add(final Money other): Money
+ }
+@enduml
